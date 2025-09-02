@@ -1,0 +1,85 @@
+.toggle-wrapper {
+    width: 74px;
+    height: 38px;
+    border-radius: 999px;
+    background: linear-gradient(to right, #A30DE2, #6A00FF);
+    padding: 3px;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.3s ease-in-out;
+}
+
+.toggle-bg {
+    background: #1c1b3a;
+    width: 97%;
+    height: 94%;
+    border-radius: 999px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    z-index: 0;
+    bottom: 1px;
+    right: 1px;
+}
+
+.toggle-circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #A30DE2, #6A00FF);
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.profile-div img {
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+a.absolute.edit {
+    position: absolute;
+    bottom: 0px;
+    left: 135px;
+}
+
+a.absolute.edit img {
+    width: 40px;
+    height: 40px;
+}
+
+.profile-div {
+    position: relative;
+}
+
+.enabled .toggle-circle {
+    transform: translateX(34px);
+}
+
+.chat-audio {
+    background-color: #00000066;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.audio-chat {
+    font-size: 22px;
+}
+
+@media(max-width: 991px) {
+.chat-audio.d-flex.align-items-center.justify-content-between.mt-5 {
+    display: block !important;
+}
+.chat-audio-left p {
+    text-align: left !important;
+    margin-bottom: 20px !important;
+}
+label.text-white.mb-1.empty {
+    display: none;
+}
+}

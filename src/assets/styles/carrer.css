@@ -1,0 +1,150 @@
+.why-section {
+    width: 100%;
+    background-image: url('/src/images/carrer-bg.png');
+    background-size: 100%;
+    background-position: center;
+    padding: 30px 50px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-top: -140px;
+    height: 633px;
+}
+
+.why-section .circle-background {
+    left: 0;
+    transform: translate(20%, -50%);
+}
+
+.why-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.why-left {
+  flex: 1;
+  max-width: 400px;
+  z-index: 2;
+}
+
+.why-left h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.why-left p {
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #d1d5db;
+}
+
+.card-slider-wrapper1 {
+    flex: 1;
+    overflow: hidden;
+    height: 575px;
+    position: relative;
+}
+
+.card-slider1 {
+  display: flex;
+  flex-direction: column;
+  animation: slideCards 10s linear infinite;
+}
+
+.card-wrapper1 {
+  padding: 2px;
+  border-radius: 20px;
+  width: 380px;
+  margin: 20px auto;
+}
+
+.card-inner1 {
+  background-color: #0b0f19;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card-inner1 h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-inner1 p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Gradients */
+.card-blue {
+  background: linear-gradient(to right, #06b6d4, #3b82f6);
+}
+
+.card-purple {
+  background: linear-gradient(to right, #8b5cf6, #ec4899);
+}
+
+.card-wrapper1.card-purple .card-inner1 {
+    background: linear-gradient(to bottom right, #C916CF, #6A00FF);
+}
+
+/* .card-wrapper1.card-orange .card-inner1 {
+    background: linear-gradient(to bottom right, #FF8800, #CEAE2F);
+} */
+
+.card-orange {
+  background: linear-gradient(to right, #f59e0b, #f97316);
+}
+
+/* Vertical slide animation */
+@keyframes slideCards {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@media (max-width: 1500px) {
+.why-section {
+    padding: 0px 50px;
+    margin-top: -140px;
+    height: 508px;
+}
+}
+
+@media (max-width: 1199px) {
+.why-section {
+    padding: 0px 50px;
+    margin-top: -70px;
+    height: 427px;
+}
+}
+
+@media (max-width: 991px) {
+.why-container {
+    display: block;
+}
+.why-section {
+    padding: 30px 50px;
+    margin-top: -70px;
+    height: auto;
+    background-image: none;
+    background-color: #0c0113;
+    border-radius: 30px;
+}
+.why-left h2 {
+    font-size: 30px;
+}
+.why-left {
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+.card-wrapper1 {
+    width: 65%;
+}
+}

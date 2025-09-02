@@ -1,0 +1,242 @@
+button.btnn.signup-btn.free-trial {
+    width: auto;
+    margin-left: auto;
+}
+nav.p-0.relative.custom-header.scrolled.navbar.navbar-expand-lg.navbar-light {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5px;
+    transition: 0.3s;
+    transform: translateY(0);
+}
+nav.p-0.relative.custom-header.scrolled.navbar.navbar-expand-lg.navbar-light .nav-brand img {
+    width: 100px;
+}
+nav.p-0.relative.custom-header.scrolled.navbar.navbar-expand-lg.navbar-light .nav-brand, 
+nav.p-0.relative.custom-header.scrolled.navbar.navbar-expand-lg.navbar-light .nav-right {
+    width: auto;
+    padding: 8px 10px;
+}
+nav.p-0.relative.custom-header.scrolled.navbar.navbar-expand-lg.navbar-light div#navbarScroll {
+    height: auto;
+}
+nav.p-0.relative.custom-header.scrolled.navbar.navbar-expand-lg.navbar-light {
+    position: fixed;
+    left: 0px;
+    right: 0;
+    top: 15px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #0a0113 !important;
+    border-radius: 50px;
+    overflow: hidden;
+}
+nav.p-0.relative.custom-header.navbar.navbar-expand-lg.navbar-light {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 15px;
+    margin: 15px 0px 0px 0px;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    z-index: 99;
+}
+.banner-text {
+    position: relative;
+    z-index: 9;
+} 
+div#navbarScroll a {
+  position: relative;
+  display: inline-block;
+  padding: 12px 30px;
+  color: #fff;
+  background: transparent;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 400;
+  z-index: 1;
+  margin: 0px 2px;
+}
+div#navbarScroll a.active::before, div#navbarScroll a.active::after {
+    display: none;
+}
+
+div#navbarScroll a.active {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    position: relative;
+    transition: all 0.2s;
+    cursor: pointer;
+    color: #FFF;
+    z-index: 1;
+    border-radius: 30px;
+    background: linear-gradient(270deg, #6A00FF 0%, #C916CF 49.65%);
+    /* border: 2px solid transparent; */
+}
+
+div#navbarScroll a::before,
+div#navbarScroll a::after {
+  content: "";
+  position: absolute;
+  border-radius: 30px;
+}
+
+div#navbarScroll a::before {
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(#222 0%, #A30DE2 20%, #010101 25%);
+  animation: rotate-bg 5s linear infinite;
+  z-index: -2;
+}
+
+div#navbarScroll a::after {
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  background: #010101;
+  z-index: -1;
+  transition: background 0.3s;
+}
+
+div#navbarScroll a:hover::before {
+  transform: scale(1.05);
+}
+
+@keyframes rotate-bg {
+  to { transform: rotate(360deg); }
+}
+.nav-right {
+    /* background: green; */
+    padding: 15px 20px;
+    width: 25%;
+    text-align: right;
+    position: relative;
+}
+#particles-js {
+    padding-top: 15px;
+}
+.nav-right::after {
+    content: "";
+    position: absolute;
+    right: 0rem;
+    bottom: 0;
+    width: 100%;
+    height: 83px;
+    border-bottom-left-radius: 30px;
+    background: #080113;
+    /* box-shadow: 0px 83px 0 0px #080113; */
+    /* transform: rotate(360deg); */
+    top: 0;
+}
+.nav-brand a {
+    position: relative;
+}
+.nav-brand::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    right: 0rem;
+    bottom: 0;
+    width: 100%;
+    height: 83px;
+    border-bottom-right-radius: 30px;
+    /* box-shadow: 0 83px 0 0 #080113; */
+    /* transform: rotate(480deg); */
+    background: #080113;
+}
+div#navbarScroll {
+    background: transparent;
+    width: 80%;
+    border-radius: 30px 30px 0px 0px;
+    height: 83px;
+    position: relative;
+}
+div#navbarScroll::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    left: 12px;
+    bottom: 0px;
+    width: 53px;
+    height: 100%;
+    border-bottom-left-radius: 40px;
+    box-shadow: 0px 1.8rem 0px 0px #0a0113;
+    transform: rotate(90deg);
+    top: -15px;
+}
+div#navbarScroll::after {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    right: 12px;
+    bottom: 0px;
+    width: 53px;
+    height: 100%;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0px 1.8rem 0px 0px #0a0113;
+    transform: rotate(-90deg);
+    top: -15px;
+}
+.nav-brand img {
+    width: 150px;
+}
+.nav-brand {
+    width: 25%;
+    position: relative;
+    padding: 15px 20px;
+}
+.me-auto.my-2.my-lg-0.navbar-nav.navbar-nav-scroll {
+    margin: 0 auto;
+    background-color: #010101;
+    padding: 2px;
+    border-radius: 30px;
+}
+/* Responsive tweaks */
+@media (max-width: 1200px) {
+div#navbarScroll {
+    width: 70%;
+}
+}
+
+@media (max-width: 991px) {
+.nav-right, div#navbarScroll::after {
+    display: none;
+}
+nav.p-0.relative.custom-header.navbar.navbar-expand-lg.navbar-light {
+    left: 0px;
+    right: 20px;
+    top: 5px;
+}
+.me-auto.my-2.my-lg-0.navbar-nav.navbar-nav-scroll {
+    max-height: inherit !important;
+}
+button.navbar-toggler {
+    background: linear-gradient(90deg, #C916CF 0%, #6A00FF 100%);
+}
+div#navbarScroll a {
+    margin: 4px 0px;
+}
+.me-auto.my-2.my-lg-0.navbar-nav.navbar-nav-scroll {
+    margin: 0px !important;
+}
+nav.p-0.relative.custom-header.scrolled.navbar.navbar-expand-lg.navbar-light {
+    padding: 0px 20px 0px 0px !important;
+    border-radius: 30px;
+}
+}
+
+
+@media (max-width: 767px) {
+.nav-brand {
+    width: 190px;
+}
+}

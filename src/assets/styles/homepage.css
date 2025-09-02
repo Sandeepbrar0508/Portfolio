@@ -1,0 +1,801 @@
+
+.banner {
+    margin: 11px 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-wrapper {
+  background: linear-gradient(to bottom right, #240046, #5a189a, #0e0018);
+  padding: 1px;
+  border-radius: 30px;
+  position: relative;
+  background-size: 800% 800%;
+  animation: gradientMove 8s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.key-div .card {
+    /* background-image: url(/src/assets/images/gradient-bg.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border: none;
+    background-color: #090019;
+}
+
+.title {
+    font-family: "Poppins", sans-serif;
+}
+
+.how-work-outer.d-flex.align-items-center {
+    gap: 16%;
+}
+.circle-background img {
+    width: 340px;
+    animation: rotateCircle 8s linear infinite;
+}
+.key-value-outer::before {
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 60%;
+    background: #0c0113;
+    /* left: 0; */
+    right: 0;
+    top: unset;
+    bottom: 0;
+    margin: 0 auto;
+    backdrop-filter: blur(10px);
+    box-shadow: 20px 0px 120px 110px #0c0113;
+    z-index: 0;
+    border-radius: 100% 0px 0px 100%;
+}
+.tabs-custom-ul li button {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px !important;
+    padding: 12px 35px;
+    position: relative;
+    background-color: transparent;
+    overflow: hidden;
+    z-index: 1;
+}
+.tabs-custom-ul li button:hover {
+  color: #fff;
+}
+.tabs-custom-ul li button.active {
+  background: linear-gradient(to right, #A30DE2, #6A00FF);
+  color: #fff !important;
+  border: none;
+}
+.tabs-custom-ul li {
+    margin: 0px 8px;
+}
+.how-work-outer .key-div::before, .how-work-outer .key-div::after {
+    display: none;
+}
+.tabs-custom-ul {
+    margin: 0 auto;
+    justify-content: center;
+    background: linear-gradient(to right, #A30DE2, #6A00FF);
+    padding: 15px !important;
+    border-radius: 30px;
+    width: 590px;
+    border: none;
+    position: relative;
+}
+ul.tabs-custom-ul li:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    left: -86px;
+    bottom: 0px;
+    width: 53px;
+    height: 75px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0px 2.8rem 0px 0px #05020a;
+    top: 3px;
+    transform: rotate(-90deg);
+    border: 1px solid #a200ca;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+ul.tabs-custom-ul::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 26px;
+    background: #030206;
+    right: 1px;
+    bottom: -3px;
+}
+ul.tabs-custom-ul li:last-child::after {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    left: 136px;
+    bottom: 0px;
+    width: 53px;
+    height: 55px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0px 2.8rem 0px 0px #030206;
+    top: 11px;
+    transform: rotate(0deg);
+    border: 1px solid #a200ca;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.tabs-custom-ul li button::before {
+  content: '';
+  position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: conic-gradient(#222 0%, #A30DE2 20%, #010101 25%);
+    animation: rotate-bg 5s linear infinite;
+    z-index: -2;
+    border-radius: 30px;
+}
+.tabs-custom-ul li button.active::before, .tabs-custom-ul li button.active::after {
+  display: none;
+}
+.tabs-custom-ul li button::after {
+  content: '';
+  position: absolute;
+    top: 1px;
+    left: 1px;
+    right: 1px;
+    bottom: 1px;
+    background: #010101;
+    z-index: -1;
+    transition: background 0.3s;
+    border-radius: 30px;
+}
+.tabs-custom-ul::before {
+    content: '';
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: -3px;
+    background-color: #030206;
+    border-radius: 30px;
+}
+.tabs-custom .tab-content .tab-pane {
+  background: linear-gradient(to right, #A30DE2, #6A00FF);
+  padding: 1px; /* border thickness */
+  border-radius: 30px;
+}
+.testimonial-section {
+    border-bottom: 1px solid #c600d557;
+}
+
+.wave-cards-section {
+  position: relative;
+  padding: 100px 0;
+  background-image: url(../../assets/images/wave.png);
+  background-repeat: no-repeat;
+  background-position: top 130px left;
+  background-size: 100%;
+}
+
+.wave-path {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.wave-cards-section .cards-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+}
+
+.subscribe-right .btnn.signup-btn.free-trial {
+    margin-left: -40px;
+    z-index: -1;
+    padding-left: 50px;
+}
+
+.subscribe-right input {
+    background-color: #1A0E2C;
+    border: 1px solid #C916CF;
+    padding: 12.5px 20px;
+    border-radius: 30px;
+    color: #fff;
+    width: 300px;
+    font-weight: 300;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.subscribe-right input::placeholder {
+  color: #fff;
+}
+
+.subscribe-right input:focus {
+  outline: none;
+}
+
+.subscribe-inner {
+  background-image: url(../../src/images/subscribe-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 70px;
+  border-radius: 40px;
+  z-index: 9;
+  position: relative;
+}
+
+.wave-cards-section .card {
+    background: linear-gradient(#0c0113, #1f0128) padding-box, /* inner bg */ linear-gradient(135deg, #a020f0, #6200ff) border-box;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 40px 20px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    animation: sway 4s ease-in-out infinite;
+}
+@keyframes sway {
+  0%, 100% {
+    transform: translateX(0) rotate(var(--card-rotate));
+  }
+  50% {
+    transform: translateX(10px) rotate(var(--card-rotate));
+  }
+}
+.cards-wrapper .card:nth-child(1) { animation-delay: 0s; }
+.cards-wrapper .card:nth-child(2) { animation-delay: 0.4s; }
+.cards-wrapper .card:nth-child(3) { animation-delay: 0.8s; }
+.cards-wrapper .card:nth-child(4) { animation-delay: 1.2s; }
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) rotate(var(--card-rotate));
+  }
+  50% {
+    transform: translateY(-10px) rotate(var(--card-rotate));
+  }
+}
+.video-container.video-custom {
+    margin: 0 auto;
+}
+.video-container.video-custom video {
+  width: 370px;
+  border-radius: 100%;
+}
+svg.rotating-circle {
+    display: none;
+}
+.circle-animation-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* width: 300px;
+  height: 300px; */
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* .rotating-circle {
+  animation: rotateCircle 8s linear infinite;
+  transform-origin: center center;
+} */
+
+@keyframes rotateCircle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.circle-background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.wave-cards-section .card img {
+    border-radius: 50%;
+    width: 102px;
+    height: 102px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin: 0 auto 20px auto;
+}
+
+.wave-cards-section .card.active {
+  background: linear-gradient(235deg, #a020f0, #8601ee);
+  color: white;
+  transform: scale(1.1) rotate(0deg);
+}
+.swiper-slide {
+  transition: opacity 0.5s ease-in-out;
+}
+.testimonial-wrapper.my-5 {
+    margin-top: 5rem !important;
+}
+.quote-icon {
+    position: absolute;
+    bottom: 30px;
+    right: 16%;
+    z-index: 9;
+}
+.testimonial-section .swiper-slide {
+    background: linear-gradient(to right, #A30DE2, #6A00FF);
+    padding: 1px;
+    border-radius: 30px;
+}
+.testimonial-section {
+  background-image: url(../../assets/images/testimonial-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.tab-content-custom {
+    background-image: url(/src/assets/images/r-gradient-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    padding: 16px 24px;
+    /* background-color: #0b011b; */
+}
+.tabs-custom-ul li {
+    flex-grow: inherit !important;
+    flex-basis: inherit !important;
+    position: relative;
+}
+svg.timeline-svg {
+    position: absolute;
+    top: 15%;
+    height: 68%;
+    left: -3%;
+    z-index: -1;
+}
+.reverse-row {
+    flex-direction: row-reverse;
+}
+
+.how-work-outer .key-div {
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+}
+
+.how-work-outer .key-div .card .icon-box.mb-0 {
+    position: relative;
+    /* right: -90px; */
+}
+
+.how-work-outer .key-div .card {
+    border-radius: 100%;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.spiral-bg {
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    width: 120px;
+}
+
+.key-div::after {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    right: 0px;
+    bottom: 39px;
+    width: 50px;
+    height: 53px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px 1.7rem 0px 0px #0a0113;
+    transform: rotate(0deg);
+    border: 1px solid #380956;
+    border-left: none;
+    border-top: none;
+}
+
+.key-div::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    right: 103px;
+    bottom: 0px;
+    width: 57px;
+    height: 54px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px 1.7rem 0px 0px #0a0113;
+    transform: rotate(0deg);
+    z-index: 9;
+    border: 1px solid #380956;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.icon-box img {
+   /* animation: moveLeftRight 2s ease-in-out infinite; */
+}
+
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10px); /* move left */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.card {
+  padding: 30px 24px;
+  position: relative;
+}
+
+.icon-box {
+  text-align: center;
+}
+
+/* Corner notch */
+.corner-notch {
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    width: 104px;
+    height: 40px;
+    background-color: #0a0113;
+    border-top-left-radius: 20px;
+    /* z-index: 99; */
+    border: 1px solid #380956;
+    border-bottom: none;
+    border-right: none;
+}
+
+.banner-text h1 {
+    font-size: 66px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+.banner-text p {
+    font-size: 27px;
+    color: #fff;
+    text-align: center;
+    margin: 20px 0px;
+}
+p.p-text.text-white {
+    font-size: 16px;
+    text-align: center;
+}
+.custom-header.scrolled div#navbarScroll {
+    width: 70%;
+}
+.marquee {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.marquee-track {
+  display: flex;
+  animation: scroll 40s linear infinite;
+  width: max-content;
+}
+
+.marquee.reverse .marquee-track {
+  animation: scroll-reverse 40s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+p.testimonialcontent {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.logo-strip {
+  display: flex;
+}
+
+.logo-item {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1.5rem;
+  margin: 0 0.75rem;
+  background-color: #1A1A1A;
+  border-radius: 9999px;
+}
+
+.logo-item img {
+  height: 24px;
+  object-fit: contain;
+  filter: grayscale(100%) brightness(1.2);
+}
+
+.swiper-arrows {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.swiper-arrows {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    right: 45%;
+    bottom: 140px;
+    z-index: 9;
+}
+
+.swiper-arrows button {
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+}
+
+.testimonial-card {
+  display: flex;
+  gap: 30px;
+  border-radius: 30px;
+  padding: 12px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  background-image: url(../../assets/images/r-gradient-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.testimonial-img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.underline {
+    width: 100%;
+    height: 1px;
+    background-color: #c916cf3b;
+    margin: 30px 0px;
+}
+
+.main-title1.text-left, .p-text.text-left {
+    text-align: left !important;
+}
+
+.testimonial-text p.subtitle {
+    font-size: 14px;
+    color: #ffffff61;
+}
+
+.testimonial-text h3 {
+    margin: 0;
+    font-size: 36px;
+    font-family: 'Poppins';
+    margin-bottom: 6px;
+}
+
+.absolute.spiral-bg.right {
+    transform: rotate(180deg);
+    right: 0;
+    left: inherit;
+    bottom: inherit;
+    top: -10%;
+}
+.banner-text button.btnn.signup-btn.free-trial {
+    margin: 0 auto;
+    z-index: -1;
+}
+.main-title1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 50px !important;
+    margin-bottom: 10px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 1200px) {
+/* nav.p-0.relative.custom-header.navbar.navbar-expand-lg.navbar-light {
+    top: 5px;
+} */
+.banner {
+    height: 500px;
+}
+}
+@media (max-width: 1199px) {
+  .swiper-arrows {
+    right: 34%;
+    bottom: 120px;
+}
+}
+@media (max-width: 991px) {
+.banner {
+    margin: 10px 0px;
+    padding: 20px;
+}
+.banner-text h1 {
+    font-size: 44px;
+    text-align: center;
+}
+.banner {
+    height: 470px;
+}
+.icon-box img {
+    width: 200px !important;
+}
+.how-work-outer .key-div {
+    width: 250px;
+    height: 250px;
+}
+.how-work-outer svg text {
+    font-size: 60px;
+}
+svg.timeline-svg {
+    top: 24%;
+    height: 68%;
+    left: -10%;
+}
+.subscribe-inner {
+    padding: 30px;
+}
+.subscribe-right .btnn.signup-btn.free-trial {
+    width: 170px;
+}
+.footer-bottom {
+    margin-top: 10px;
+}
+.p-5.ms-5 {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.main-title1 {
+    font-size: 35px !important;
+    line-height: 45px;
+}
+}
+@media (max-width: 767px) {
+.how-work-outer.d-flex.align-items-center.my-5.reverse-row {
+    margin: 0px !important;
+}
+.key-div .card .d-flex.align-items-center.p-2 {
+    display: block !important;
+}
+.icon-box.ms-5 {
+    margin: 0px !important;
+}
+.how-work-outer .key-div {
+    display: none;
+}
+svg.timeline-svg {
+    display: none !important;
+}
+.tab-content-custom.p-5 {
+    padding: 15px !important;
+}
+.tab-content-custom.p-5 .d-flex.gap-5.align-items-center {
+    display: block !important;
+}
+.tabs-custom-ul {
+    background: transparent;
+    width: auto;
+    border: none !important;
+}
+.tabs-custom-ul::before, ul.tabs-custom-ul li:last-child::after, ul.tabs-custom-ul::after, ul.tabs-custom-ul li:nth-child(1)::before {
+    display: none;
+}
+.tabs-custom-ul li {
+    margin: 5px 8px;
+}
+.testimonial-card {
+    display: block;
+}
+.testimonial-img {
+    width: 100%;
+    height: 320px;
+    margin-bottom: 20px;
+}
+.swiper-arrows {
+    right: inherit;
+    bottom: 65px;
+    left: 25px;
+}
+.quote-icon img {
+    width: 50px;
+}
+.testimonial-wrapper.my-5 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+section.wave-cards-section.pb-5.mb-5 {
+    padding: 0px !important;
+}
+.wave-cards-section .cards-wrapper {
+    display: block;
+    text-align: center;
+}
+.quote-icon {
+    bottom: 30px;
+    right: 8%;
+    z-index: 9;
+}
+.wave-cards-section .card {
+    margin: 40px auto;
+}
+.subscribe-inner.d-flex.justify-content-between {
+    display: block !important;
+}
+.subscribe-right.d-flex.align-items-center {
+    display: block !important;
+    text-align: center;
+    margin-top: 20px;
+}
+.subscribe-right .btnn.signup-btn.free-trial {
+    margin: 20px auto 0 auto;
+}
+.subscribe-left.me-4 {
+    margin: 0px !important;
+    text-align: center;
+}
+.subscribe-left.me-4 p.p-text.text-left.text-white.m-0 {
+    text-align: center !important;
+}
+section.pb-5.mt-5.testimonial-section {
+    margin-top: 0px !important;
+}
+}
