@@ -606,7 +606,9 @@ i.fa-regular.fa-eye-slash.eye-slash-custom {
     align-items: center;
 }
 .btnn {
-    padding: 12px 16px;
+    padding: 12px;
+    z-index: 99;
+    position: relative;
 }
 .login-inner-left {
     width: 100%;

@@ -803,7 +803,7 @@ p.testimonialcontent {
 @media (max-width: 991px) {
 .banner {
     margin: 10px;
-    padding: 20px;
+    padding: 20px 15px;
 }
 .btnn {
     padding: 12px 16px;
