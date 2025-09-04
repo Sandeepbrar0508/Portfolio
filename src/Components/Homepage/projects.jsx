@@ -2,19 +2,19 @@ import React from "react";
 import { Container } from "react-bootstrap";
 
 const images = [
-  { src: "../src/assets/images/priscainternational.png", title: "Prisca International", link: "https://priscainternational.com/" },
-  { src: "../src/assets/images/p11.png", title: "Social Blaze", link: "https://socialblaze.ai/" },
-  { src: "../src/assets/images/p3.png", title: "Vox Catalog", link: "https://voxcatalog.com/login" },
-  { src: "../src/assets/images/p4.png", title: "1370 Roof Top Lounge", link: "https://www.1370rooftoplounge.com/" },
-  { src: "../src/assets/images/p5.png", title: "Erlipro", link: "https://www.erlipro.com/" },
-  { src: "../src/assets/images/p6.png", title: "DM Textle Machinery", link: "https://www.dmtextilemachinery.com/" },
-  { src: "../src/assets/images/p7.png", title: "LogyMy", link: "https://www.logymy.com/" },
-  { src: "../src/assets/images/p8.png", title: "LogyTalks", link: "https://logytalks.com/" },
-  { src: "../src/assets/images/p9.png", title: "Impacting Life", link: "http://impactinglife.itechnolabs.tech/" },
-  { src: "../src/assets/images/p10.png", title: "Capital Vue", link: "https://capital-vue.itechnolabs.co.in/login/" },
-  { src: "../src/assets/images/p2.png", title: "Mind GTC", link: "https://mindgtc.com/" },
-  { src: "../src/assets/images/p12.png", title: "Crowd Buzz", link: "https://crowdbuzz.com/pages/home" },
-  { src: "../src/assets/images/p13.png", title: "Baztel", link: "https://esim-frontend.itechnolabs.tech/" },
+  { src: "../images/priscainternational.png", title: "Prisca International", link: "https://priscainternational.com/" },
+  { src: "../images/p11.png", title: "Social Blaze", link: "https://socialblaze.ai/" },
+  { src: "../images/p3.png", title: "Vox Catalog", link: "https://voxcatalog.com/login" },
+  { src: "../images/p4.png", title: "1370 Roof Top Lounge", link: "https://www.1370rooftoplounge.com/" },
+  { src: "../images/p5.png", title: "Erlipro", link: "https://www.erlipro.com/" },
+  { src: "../images/p6.png", title: "DM Textle Machinery", link: "https://www.dmtextilemachinery.com/" },
+  { src: "../images/p7.png", title: "LogyMy", link: "https://www.logymy.com/" },
+  { src: "../images/p8.png", title: "LogyTalks", link: "https://logytalks.com/" },
+  { src: "../images/p9.png", title: "Impacting Life", link: "http://impactinglife.itechnolabs.tech/" },
+  { src: "../images/p10.png", title: "Capital Vue", link: "https://capital-vue.itechnolabs.co.in/login/" },
+  { src: "../images/p2.png", title: "Mind GTC", link: "https://mindgtc.com/" },
+  { src: "../images/p12.png", title: "Crowd Buzz", link: "https://crowdbuzz.com/pages/home" },
+  { src: "../images/p13.png", title: "Baztel", link: "https://esim-frontend.itechnolabs.tech/" },
 ];
 
 const Projects = () => {
