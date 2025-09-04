@@ -67,7 +67,7 @@ img.absolute.blog-spiral-bg {
 .blog-section {
     margin-top: -100px;
     position: relative;
-    z-index: 9;
+    /* z-index: 9; */
 }
 
 .blog-slider-outer {

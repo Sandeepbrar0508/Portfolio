@@ -20,11 +20,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
-  /* font-family: "Inter", sans-serif; */
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "Inter", sans-serif;
 }
  a, button, div, ul, li, input {
-   font-family: "Open Sans", sans-serif;
+   font-family: "Inter", sans-serif;
  }
 /* body::after {
     content: "";

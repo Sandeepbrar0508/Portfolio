@@ -93,29 +93,48 @@ const ParticleBackground = () => {
 
   return (
     <div className="banner">
-    <div
-      id="particles-js"
-      style={{
-        position: "absolute",
-        width: "100%",
-        height: "100%",
-        // zIndex: -1,
-        left: 0,
-        right: 0,
-        top: 0,
-        bottom: 0,
-      }}
-    />
-    <div className="banner-text">
-      <h1 data-aos="zoom-in" data-aos-delay="300">IT, Evolved to Autonomy</h1>
-      <p data-aos="zoom-in" data-aos-delay="300">Self-driving infrastructure with zero tickets</p>
-      <button data-aos="zoom-in" data-aos-delay="300" className='btnn signup-btn free-trial'>
-        Start Free Trial<i className='fa-solid fa-arrow-right-long ms-2 arrow-icon'></i>
-        <span className="hoverEffect">
-            <span></span>
-        </span>
-      </button>
-    </div>
+      <div
+        id="particles-js"
+        style={{
+          position: "absolute",
+          width: "100%",
+          height: "100%",
+          // zIndex: -1,
+          left: 0,
+          right: 0,
+          top: 0,
+          bottom: 0,
+        }}
+      />
+      <div className="banner-text">
+        <h1 className="text-center" data-aos="zoom-in" data-aos-delay="300">Sandeep Kaur</h1>
+        <p className="text-center" data-aos="zoom-in" data-aos-delay="300">Web Designer — HTML/CSS • SASS • SCSS • jQuery • LESS • Tailwind CSS • Basic React JS • GIT</p>
+        <div className="d-flex gap-3 items-center justify-content-center mt-5">
+          <a
+            href="#contact"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+            className="btnn signup-btn free-trial m-0"
+          >
+            Hire / Contact<i className='fa-solid fa-arrow-right-long ms-2 arrow-icon'></i>
+            <span className="hoverEffect">
+              <span></span>
+            </span>
+          </a>
+          <a
+            href="public/Sandeep_CV.pdf"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+            className="btnn signup-btn free-trial m-0"
+            target="_blank"
+          >
+            Download Resume<i class="fa-solid fa-download ms-2 arrow-icon"></i>
+            <span className="hoverEffect">
+              <span></span>
+            </span>
+          </a>
+        </div>
+      </div>
     </div>
   );
 };

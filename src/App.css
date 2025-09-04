@@ -3,11 +3,10 @@
 
 body {
   margin: 0;
-  /* font-family: "Inter", sans-serif; */
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "Inter", sans-serif;
 }
  a, button, div, ul, li, input {
-   font-family: "Open Sans", sans-serif;
+   font-family: "Inter", sans-serif;
  }
 .usage-chart-container {
     width: 100%;
