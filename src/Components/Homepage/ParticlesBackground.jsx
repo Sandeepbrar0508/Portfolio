@@ -109,7 +109,7 @@ const ParticleBackground = () => {
       <div className="banner-text">
         <h1 className="text-center" data-aos="zoom-in" data-aos-delay="300">Sandeep Kaur</h1>
         <p className="text-center" data-aos="zoom-in" data-aos-delay="300">Web Designer — HTML/CSS • SASS • SCSS • jQuery • LESS • Tailwind CSS • Basic React JS • GIT</p>
-        <div className="d-flex gap-3 items-center justify-content-center mt-5">
+        <div className="d-flex gap-2 items-center justify-content-center mt-5">
           <a
             href="#contact"
             data-aos="zoom-in"

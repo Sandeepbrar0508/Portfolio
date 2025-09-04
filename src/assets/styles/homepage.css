@@ -802,8 +802,20 @@ p.testimonialcontent {
 }
 @media (max-width: 991px) {
 .banner {
-    margin: 10px 0px;
+    margin: 10px;
     padding: 20px;
+}
+.btnn {
+    padding: 12px 16px;
+}
+.t-item .card-body {
+    padding: 20px;
+}
+.footer-bottom-right {
+    right: 0;
+    left: 0;
+    width: 130px;
+    margin: 0 auto;
 }
 .banner-text h1 {
     font-size: 44px;

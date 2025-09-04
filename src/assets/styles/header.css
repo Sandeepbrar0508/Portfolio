@@ -209,10 +209,13 @@ div#navbarScroll {
 .nav-right, div#navbarScroll::after {
     display: none;
 }
+.banner-text h1 {
+    display: none;
+}
 nav.p-2.relative.custom-header.navbar.navbar-expand-lg.navbar-light {
     left: 20px;
     right: 20px;
-    top: 5px;
+    top: 20px;
 }
 .me-auto.my-2.my-lg-0.navbar-nav.navbar-nav-scroll {
     max-height: inherit !important;
