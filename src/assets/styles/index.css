@@ -607,8 +607,11 @@ i.fa-regular.fa-eye-slash.eye-slash-custom {
 }
 .btnn {
     padding: 12px;
-    z-index: 99;
-    position: relative;
+    /* z-index: 99;
+    position: relative; */
+}
+img.absolute.blog-spiral-bg {
+    width: 250px;
 }
 .login-inner-left {
     width: 100%;
