@@ -39,7 +39,7 @@ const ContactInfo = () => {
                       <div className="blog-card" data-aos="zoom-in" data-aos-delay="300">
                         <div className="blog-info">
                           <img src={Phone} alt="phone" />
-                          <h4 className="blog-title mt-3">Contact Us</h4>
+                          <h4 className="blog-title mt-3">Contact</h4>
                           <p className="text-white">95014-26625</p>
                         </div>
                       </div>
@@ -53,7 +53,7 @@ const ContactInfo = () => {
                       <div className="blog-card" data-aos="zoom-in" data-aos-delay="300">
                         <div className="blog-info">
                           <img src={Email} alt="email" />
-                          <h4 className="blog-title mt-3">Email Us</h4>
+                          <h4 className="blog-title mt-3">Email</h4>
                           <p className="text-white">sandeepbrar0508@gmail.com</p>
                         </div>
                       </div>
