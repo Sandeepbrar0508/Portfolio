@@ -26,7 +26,7 @@ const ContactInfo = () => {
                         <div className="blog-info">
                           <img src={Location} alt="location" />
                           <h4 className="blog-title mt-3">Address</h4>
-                          <p className="text-white">1234 Elm Street, Suite 567 Springfield, IL 62704 UOS , Winnipeg.</p>
+                          <p className="text-white">138 Williamson Crescent, Winnipeg, MB, R3W 1E2</p>
                         </div>
                       </div>
                       <div className="corner-notch"></div>
